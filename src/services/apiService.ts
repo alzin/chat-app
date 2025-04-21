@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { User, Message, ChatRoom } from '../types';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+// const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://chat-app-3nk8.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,

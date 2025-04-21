@@ -9,7 +9,8 @@ class SocketService {
   initialize() {
     if (this.initialized) return;
     
-    this.socket = io('http://localhost:3001');
+    // this.socket = io('http://localhost:3001');
+    this.socket = io('https://chat-app-3nk8.onrender.com:3001');
     
     this.socket.on('connect', () => {
       console.log('Connected to server');
